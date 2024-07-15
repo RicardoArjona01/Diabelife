@@ -1,0 +1,285 @@
+/* inicio.css */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-image .logo {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+    display: block;
+}
+.buscador-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.buscador-container input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.boton-carro {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.boton-iniciar, .boton-cerrar {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.boton-inicio,
+.boton-perfil,
+.boton-produ {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.boton-inicio i,
+.boton-perfil i,
+.boton-produ i,
+.boton-carro i,
+.boton-cerrar i,
+.boton-iniciar i {
+    margin-right: 5px;
+}
+
+.carro {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.carro.open {
+    display: block;
+    transform: translateX(0);
+}
+
+.carro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.carro-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+.producto {
+    margin-bottom: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.producto:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.productos, .carro {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.producto, .item-carro {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px; 
+    max-height: 150px; 
+    object-fit: cover;
+}
+
+.producto img.min {
+    max-width: 100%;
+    display: block; /* Asegura que la imagen ocupe todo el ancho disponible */
+}
+
+.producto .btnAgregarProducto {
+    border: 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    transition: color 200ms ease-in 50ms;
+}
+
+.producto .btnAgregarProducto:hover {
+    color: white;
+    transition: color 200ms ease-out 50ms;
+}
+
+.carro {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.carro.open {
+    display: block;
+    transform: translateX(0);
+}
+
+.carro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.carro-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+#cerrarCarro {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#itemsCarro {
+    padding: 10px;
+}
+
+#totalCarro {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.item-carro button {
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.item-carro img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+}
+
+.item-carro button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#buscador {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#buscador:focus {
+    outline: none;
+    border-color: #333;
+}
+a{
+    text-decoration: none;
+    border: 1px black;
+    border-radius: 10px;
+    margin: 20px;
+    color:white;
+    background-color: blue;
+    padding: 10px;
+}
+
+
+.item-carro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+#carro {
+    display: none;
+}
+#carro.open {
+    display: block;
+}
