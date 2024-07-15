@@ -4,21 +4,21 @@ function guardarCarro() {
   localStorage.setItem('carro', JSON.stringify(carro));
 }
 
-function renderizarProductos(productos, contenedor) {
-  contenedor.innerHTML = ""; // Limpiar el contenedor
-
-  productos.forEach((producto) => {
-    const productoHTML = `
-            <div class="producto">
-                <img src="${producto.fotos.principal}" alt="${producto.nombre}">
-                <h3>${producto.nombre}</h3>
-                <p>${producto.descripcion}</p>
-                <p>Precio: $${producto.precio}</p>
-                <a class="prod" href="detalleProductos.html?id=${producto.id}">Detalles</a>
-                <button class="btnAgregarProducto" onclick="agregarAlCarro(${producto.id})">Agregar al Carrito</button>
-            </div>
-        `;
-    contenedor.appendChild(htmlToElement(productoHTML));
+function renderizarProductos(productosARenderizar = productos) {
+  const contenedorProductos = document.getElementById('productos');
+  contenedorProductos.innerHTML = '';
+  productosARenderizar.forEach(producto => {
+      const productoDiv = document.createElement('div');
+      productoDiv.classList.add('producto');
+      productoDiv.innerHTML = `
+          <img src="${producto.fotos.principal}" alt="${producto.nombre}">
+          <h3>${producto.nombre}</h3>
+          <p>${producto.descripcion}</p>
+          <p>Precio: $${producto.precio}</p>
+          <a class="prod" href="detalleProductos.html?id=${producto.id}">Detalles</a>
+          <button class="btnAgregarProducto" onclick="agregarAlCarro(${producto.id})">Agregar al Carro</button>
+      `;
+      contenedorProductos.appendChild(productoDiv);
   });
 }
 
