@@ -4,8 +4,8 @@ const productos = [
         nombre: 'Glucómetro',
         descripcion: 'Dispositivo para medir el nivel de glucosa en sangre.',
         fotos: {
-            principal: `./imagenes/glucometro.jpg`,
-            miniatura: `./imagenes/glucometro.jpg`
+            principal: `./Imagenes/glucometro.jpg`,
+            miniatura: `./Imagenes/glucometro.jpg`
         },
         precio: 200
     },
@@ -14,8 +14,8 @@ const productos = [
         nombre: 'Tiras Reactivas',
         descripcion: 'Tiras que se usan junto al glucometro para medir el nivel de glucosa',
         fotos: {
-            principal: `./imagenes/tiras reactivas.jpg`,
-            miniatura: `./imagenes/tiras reactivas.jpg`
+            principal: `./Imagenes/tiras reactivas.jpg`,
+            miniatura: `./Imagenes/tiras reactivas.jpg`
         },
         precio: 20
     },
@@ -24,8 +24,8 @@ const productos = [
         nombre: 'Lanzador de Lancetas',
         descripcion: 'Dispositivo para puncionar el dedo y obtener una muestra de sangre.',
         fotos: {
-            principal: `./imagenes/lanzador-de-lancetas.jpg`,
-            miniatura: `./imagenes/lanzador-de-lancetas.jpg`
+            principal: `./Imagenes/lanzador-de-lancetas.jpg`,
+            miniatura: `./Imagenes/lanzador-de-lancetas.jpg`
         },
         precio: 199
     },
@@ -34,8 +34,8 @@ const productos = [
         nombre: 'Lancetas',
         descripcion: 'Agujas para usar con el lanzador de lancetas.',
         fotos: {
-            principal: `./imagenes/lancetas.jpg`,
-            miniatura: `./imagenes/lancetas.jpg`
+            principal: `./Imagenes/lancetas.jpg`,
+            miniatura: `./Imagenes/lancetas.jpg`
         },
         precio: 85
     },
@@ -44,8 +44,8 @@ const productos = [
         nombre: 'Suplementos de Omega-3',
         descripcion: 'Suplementos para la salud cardiovascular.',
         fotos: {
-            principal: `./imagenes/omega3.jpg`,
-            miniatura: `./imagenes/omega3.jpg`
+            principal: `./Imagenes/omega3.jpg`,
+            miniatura: `./Imagenes/omega3.jpg`
         },
         precio: 300
     },
@@ -54,8 +54,8 @@ const productos = [
         nombre: 'Reservorios de Insulina',
         descripcion: 'Contenedores para almacenar la insulina en la bomba.',
         fotos: {
-            principal: `./imagenes/reservorios-insulina.jpg`,
-            miniatura: `./imagenes/reservorios-insulina.jpg`
+            principal: `./Imagenes/reservorios-insulina.jpg`,
+            miniatura: `./Imagenes/reservorios-insulina.jpg`
         },
         precio: 25
     },
@@ -64,8 +64,8 @@ const productos = [
         nombre: 'Sensores Continuos de Glucosa',
         descripcion: 'Dispositivos que miden continuamente los niveles de glucosa.',
         fotos: {
-            principal: `./imagenes/sensores-glucosa.jpg`,
-            miniatura: `./imagenes/sensores-glucosa.jpg`
+            principal: `./Imagenes/sensores-glucosa.jpg`,
+            miniatura: `./Imagenes/sensores-glucosa.jpg`
         },
         precio: 645
     },
@@ -74,8 +74,8 @@ const productos = [
         nombre: 'Tabletas de Glucosa',
         descripcion: 'Tabletas para elevar rápidamente el nivel de glucosa en sangre.',
         fotos: {
-            principal: `./imagenes/tabletas-glucosa.jpg`,
-            miniatura: `./imagenes/tabletas-glucosa.jpg`
+            principal: `./Imagenes/tabletas-glucosa.jpg`,
+            miniatura: `./Imagenes/tabletas-glucosa.jpg`
         },
         precio: 350
     },
@@ -84,8 +84,8 @@ const productos = [
         nombre: 'Kit de Prueba de Cetona',
         descripcion: 'Kit para medir los niveles de cetona en sangre.',
         fotos: {
-            principal: `./imagenes/kit-cetona.jpg`,
-            miniatura: `./imagenes/kit-cetona.jpg`
+            principal: `./Imagenes/kit-cetona.jpg`,
+            miniatura: `./Imagenes/kit-cetona.jpg`
         },
         precio: 273
     },
@@ -94,8 +94,8 @@ const productos = [
         nombre: 'Medidor de Hemoglobina A1c',
         descripcion: 'Dispositivo para medir los niveles de hemoglobina A1c.',
         fotos: {
-            principal: `./imagenes/medidor-a1c.jpg`,
-            miniatura: `./imagenes/medidor-a1c.jpg`
+            principal: `./Imagenes/medidor-a1c.jpg`,
+            miniatura: `./Imagenes/medidor-a1c.jpg`
         },
         precio: 430
     },
@@ -104,8 +104,8 @@ const productos = [
         nombre: 'Insulina Rápida',
         descripcion: 'Insulina de acción rápida para control inmediato.',
         fotos: {
-            principal: `./imagenes/insulina-rapida.jpg`,
-            miniatura: `./imagenes/insulina-rapida.jpg`
+            principal: `./Imagenes/insulina-rapida.jpg`,
+            miniatura: `./Imagenes/insulina-rapida.jpg`
         },
         precio: 30
     },
@@ -114,8 +114,8 @@ const productos = [
         nombre: 'Insulina Lenta',
         descripcion: 'Insulina de acción prolongada para control a largo plazo.',
         fotos: {
-            principal: `./imagenes/insulina-lenta.jpg`,
-            miniatura: `./imagenes/insulina-lenta.jpg`
+            principal: `./Imagenes/insulina-lenta.jpg`,
+            miniatura: `./Imagenes/insulina-lenta.jpg`
         },
         precio: 220
     },
@@ -124,8 +124,8 @@ const productos = [
         nombre: 'Monitor de Presión Arterial',
         descripcion: 'Dispositivo para medir la presión arterial.',
         fotos: {
-            principal: `./imagenes/monitor-presion-arterial.jpg`,
-            miniatura: `./imagenes/monitor-presion-arterial.jpg`
+            principal: `./Imagenes/monitor-presion-arterial.jpg`,
+            miniatura: `./Imagenes/monitor-presion-arterial.jpg`
         },
         precio: 190
     },
@@ -134,8 +134,8 @@ const productos = [
         nombre: 'Parches de Insulina',
         descripcion: 'Parches para la administración continua de insulina.',
         fotos: {
-            principal: `./imagenes/parches-insulina.jpg`,
-            miniatura: `./imagenes/parches-insulina.jpg`
+            principal: `./Imagenes/parches-insulina.jpg`,
+            miniatura: `./Imagenes/parches-insulina.jpg`
         },
         precio: 100
     },
@@ -144,8 +144,8 @@ const productos = [
         nombre: 'Jeringas de Insulina',
         descripcion: 'Jeringas para la inyección de insulina.',
         fotos: {
-            principal: `./imagenes/jeringas-insulina.jpg`,
-            miniatura: `./imagenes/jeringas-insulina.jpg`
+            principal: `./Imagenes/jeringas-insulina.jpg`,
+            miniatura: `./Imagenes/jeringas-insulina.jpg`
         },
         precio: 200
     },
@@ -154,8 +154,8 @@ const productos = [
         nombre: 'Pastillas de Metformina',
         descripcion: 'Medicamento oral para el control de la diabetes.',
         fotos: {
-            principal: `./imagenes/metformina.jpg`,
-            miniatura: `./imagenes/metformina.jpg`
+            principal: `./Imagenes/metformina.jpg`,
+            miniatura: `./Imagenes/metformina.jpg`
         },
         precio: 109
     },
@@ -164,8 +164,8 @@ const productos = [
         nombre: 'Crema para Pie Diabético',
         descripcion: 'Crema especial para el cuidado de los pies.',
         fotos: {
-            principal: `./imagenes/crema-pie.jpg`,
-            miniatura: `./imagenes/crema-pie.jpg`
+            principal: `./Imagenes/crema-pie.jpg`,
+            miniatura: `./Imagenes/crema-pie.jpg`
         },
         precio: 330
     },
@@ -174,8 +174,8 @@ const productos = [
         nombre: 'Bastones de Glucosa',
         descripcion: 'Bastones para monitorear la glucosa en saliva.',
         fotos: {
-            principal: `./imagenes/bastones-glucosa.jpg`,
-            miniatura: `./imagenes/bastones-glucosa.jpg`
+            principal: `./Imagenes/bastones-glucosa.jpg`,
+            miniatura: `./Imagenes/bastones-glucosa.jpg`
         },
         precio: 270
     },
@@ -184,8 +184,8 @@ const productos = [
     //     nombre: 'Diabetes Educ Kit',
     //     descripcion: 'Kit educativo sobre la diabetes para pacientes.',
     //     fotos: {
-    //         principal: `./imagenes/educ-kit.jpg`,
-    //         miniatura: `./imagenes/educ-kit.jpg`
+    //         principal: `./Imagenes/educ-kit.jpg`,
+    //         miniatura: `./Imagenes/educ-kit.jpg`
     //     },
     //     precio: 25
     // },
@@ -194,8 +194,8 @@ const productos = [
     //     nombre: 'Pluma de Insulina',
     //     descripcion: 'Pluma para la administración fácil de insulina.',
     //     fotos: {
-    //         principal: `./imagenes/pluma-insulina.jpg`,
-    //         miniatura: `./imagenes/pluma-insulina.jpg`
+    //         principal: `./Imagenes/pluma-insulina.jpg`,
+    //         miniatura: `./Imagenes/pluma-insulina.jpg`
     //     },
     //     precio: 45
     // },
@@ -204,8 +204,8 @@ const productos = [
     //     nombre: 'Monitor de Actividad Física',
     //     descripcion: 'Dispositivo para monitorear la actividad física y el ejercicio.',
     //     fotos: {
-    //         principal: `./imagenes/monitor-actividad.jpg`,
-    //         miniatura: `./imagenes/monitor-actividad.jpg`
+    //         principal: `./Imagenes/monitor-actividad.jpg`,
+    //         miniatura: `./Imagenes/monitor-actividad.jpg`
     //     },
     //     precio: 75
     // },
@@ -214,8 +214,8 @@ const productos = [
     //     nombre: 'Suplementos de Cromo',
     //     descripcion: 'Suplementos para ayudar a regular el azúcar en sangre.',
     //     fotos: {
-    //         principal: `./imagenes/suplemento-cromo.jpg`,
-    //         miniatura: `./imagenes/suplemento-cromo.jpg`
+    //         principal: `./Imagenes/suplemento-cromo.jpg`,
+    //         miniatura: `./Imagenes/suplemento-cromo.jpg`
     //     },
     //     precio: 20
     // },
@@ -224,8 +224,8 @@ const productos = [
     //     nombre: 'Jabón Antiséptico',
     //     descripcion: 'Jabón para la limpieza y desinfección de la piel.',
     //     fotos: {
-    //         principal: `./imagenes/jabon-antiseptico.jpg`,
-    //         miniatura: `./imagenes/jabon-antiseptico.jpg`
+    //         principal: `./Imagenes/jabon-antiseptico.jpg`,
+    //         miniatura: `./Imagenes/jabon-antiseptico.jpg`
     //     },
     //     precio: 8
     // },
@@ -234,8 +234,8 @@ const productos = [
     //     nombre: 'Gel de Aloe Vera',
     //     descripcion: 'Gel para calmar e hidratar la piel.',
     //     fotos: {
-    //         principal: `./imagenes/gel-aloe-vera.jpg`,
-    //         miniatura: `./imagenes/gel-aloe-vera.jpg`
+    //         principal: `./Imagenes/gel-aloe-vera.jpg`,
+    //         miniatura: `./Imagenes/gel-aloe-vera.jpg`
     //     },
     //     precio: 12
     // },
@@ -244,8 +244,8 @@ const productos = [
     //     nombre: 'Comida para Diabéticos',
     //     descripcion: 'Alimentos especialmente formulados para personas con diabetes.',
     //     fotos: {
-    //         principal: `./imagenes/comida-diabeticos.jpg`,
-    //         miniatura: `./imagenes/comida-diabeticos.jpg`
+    //         principal: `./Imagenes/comida-diabeticos.jpg`,
+    //         miniatura: `./Imagenes/comida-diabeticos.jpg`
     //     },
     //     precio: 30
     // },
@@ -254,8 +254,8 @@ const productos = [
     //     nombre: 'Bomba de Insulina',
     //     descripcion: 'Dispositivo para la administración continua de insulina.',
     //     fotos: {
-    //         principal: `./imagenes/bomba-insulina.jpg`,
-    //         miniatura: `./imagenes/bomba-insulina.jpg`
+    //         principal: `./Imagenes/bomba-insulina.jpg`,
+    //         miniatura: `./Imagenes/bomba-insulina.jpg`
     //     },
     //     precio: 25
     // },
@@ -264,8 +264,8 @@ const productos = [
     //     nombre: 'Vitamina D',
     //     descripcion: 'Suplemento de vitamina D para el soporte inmunológico.',
     //     fotos: {
-    //         principal: `./imagenes/vitamina-d.jpg`,
-    //         miniatura: `./imagenes/vitamina-d.jpg`
+    //         principal: `./Imagenes/vitamina-d.jpg`,
+    //         miniatura: `./Imagenes/vitamina-d.jpg`
     //     },
     //     precio: 15
     // },
@@ -274,8 +274,8 @@ const productos = [
     //     nombre: 'Gel Hidratante para Ojos',
     //     descripcion: 'Gel para aliviar la sequedad ocular.',
     //     fotos: {
-    //         principal: `./imagenes/gel-ojos.jpg`,
-    //         miniatura: `./imagenes/gel-ojos.jpg`
+    //         principal: `./Imagenes/gel-ojos.jpg`,
+    //         miniatura: `./Imagenes/gel-ojos.jpg`
     //     },
     //     precio: 10
     // }
